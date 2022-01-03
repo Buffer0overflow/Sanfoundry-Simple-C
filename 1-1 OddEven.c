@@ -14,7 +14,8 @@ else {
     printf("Integer %d is Odd",d);
 } ;
   
-  return 0;
+  return 0
+  ;
 
 };
 
