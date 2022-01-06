@@ -3,7 +3,8 @@
 int main(){
 
 int d ;
-printf("Enter an integer to check:\n");
+printf("Enter an integer to\
+ check:\n");
 scanf(" %d",&d);
 
 if ( d % 2 == 0){
