@@ -1,0 +1,5 @@
+
+Remove the s from "%[^\n]s". The s will try to match a literal "s" in the input string. %[..] is a format specifier on its own. Then you should also limit the number of characters read, to prevent buffer overflow: "%99[^\n]" – 
+HAL9000
+Feb 6 '21 at 18:03
+
