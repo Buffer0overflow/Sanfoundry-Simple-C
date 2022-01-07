@@ -1,3 +1,8 @@
+/*
+ * C program to accept a decimal number and convert it to binary
+ * and count the number of 1's in the binary number
+ */
+
 #include <stdio.h>
 int main()
 {
