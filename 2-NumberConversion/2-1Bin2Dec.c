@@ -20,7 +20,6 @@ num = num /10 ;
 base = base * 2;
  
 
-
 }
 printf("You entered %d\n",binaryVal);
 printf("Decimal value of binary is %d",DecValue);
