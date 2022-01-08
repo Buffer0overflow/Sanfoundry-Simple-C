@@ -1,3 +1,8 @@
+/*
+ * C program to convert given number of days to a measure of time given
+ * in years, weeks and days. For example 375 days is equal to 1 year
+ * 1 week and 3 days (ignore leap year)
+ */
 #include <stdio.h>
 #define DAYSINWEEK 7
 #define DAYSINYEAR 365
@@ -11,7 +16,7 @@ scanf(" %d",&numOfdays);
 
 years = numOfdays / DAYSINYEAR ; 
 weeks = (numOfdays % DAYSINYEAR) / DAYSINWEEK ; 
-days = numOfdays - (years *365 + weeks * 7); // Calculation is different than in SF solution :)
+days = numOfdays - (years * 365 + weeks * 7); // Calculation is different than in SF solution :)
 
 printf("Input value is %d\n",numOfdays);
 /*
